@@ -1,7 +1,8 @@
 public class main {
     public static void main(String[] args) {
 
-        // Program main body for numbers
+        /* Program main body for numbers
+            */
         int startNumber1 = 3; // Positive number for testing
         startNumber1 = startNumber1 * 2;
         startNumber1 +=6;

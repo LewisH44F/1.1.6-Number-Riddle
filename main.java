@@ -1,7 +1,8 @@
 public class main {
     public static void main(String[] args) {
 
-        /* Program main body for numbers
+        /* 
+        Program main body for numbers; we created 6 different iterations to test for positive and negative integers and doubles, as well as a special case being 0.
             */
         int startNumber1 = 3; // Positive number for testing
         startNumber1 = startNumber1 * 2;

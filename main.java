@@ -1,12 +1,11 @@
 public class main {
     public static void main(String[] args) {
-        int val1 = 3;
-        int val1 = 3;
-        val1 = val1 * 2;
-        val1 +=6;
-        val1/=2;
-        val1 -= 3;
-        System.out.println(val1);
+        int startNumber1 = 3;
+        startNumber1 = startNumber1 * 2;
+        startNumber1 +=6;
+        startNumber1/=2;
+        startNumber1 -= 3;
+        System.out.println(startNumber1);
 
         int val2 = -5;
 

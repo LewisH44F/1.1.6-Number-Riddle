@@ -43,7 +43,7 @@ public class main {
         System.out.println("Subtracted 0: " + startNumber3);
         System.out.println("Final value: " + startNumber3);    
         
-        System.out.println("\nTest case 4: Multi positive integer");
+        System.out.println("\nTest case 4: One");
         int startNumber4 = 1; // multi pos. value for testing
         System.out.println("Initial value: " + startNumber4);
         startNumber4 = startNumber4 * 2;

@@ -38,6 +38,7 @@ public class main {
         startNumber5 /=2 ;
         startNumber5 -= 2.5;
         System.out.println((int)startNumber5);
+        
         double startNumber6 = -3.5; // negative double value for testing
         startNumber6 = startNumber6 * 2;
         startNumber6 +=6;

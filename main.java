@@ -15,6 +15,7 @@ public class main {
         System.out.println("Divided by 2: " + startNumber1);
         startNumber1 -= 3;
         System.out.println("Subtracted 3: " + startNumber1);
+        int finalNumber1 = startNumber1;
         System.out.println("Final value: " + startNumber1);
 
         System.out.println("\nTest case 2: Negative integer");
@@ -28,6 +29,7 @@ public class main {
         System.out.println("Divided by 2: " + startNumber2);
         startNumber2 -= -5;
         System.out.println("Subtracted -5: " + startNumber2);
+        int finalNumber2 = startNumber2;
         System.out.println("Final value: " + startNumber2);
         
         System.out.println("\nTest case 3: Zero");
@@ -41,6 +43,7 @@ public class main {
         System.out.println("Divided by 2: " + startNumber3);
         startNumber3 -= 0;
         System.out.println("Subtracted 0: " + startNumber3);
+        int finalNumber3 = startNumber3;
         System.out.println("Final value: " + startNumber3);    
         
         System.out.println("\nTest case 4: One");
@@ -54,6 +57,7 @@ public class main {
         System.out.println("Divided by 2: " + startNumber4);
         startNumber4 -= 1;
         System.out.println("Subtracted 1: " + startNumber4);
+        int finalNumber4 = startNumber4;
         System.out.println("Final value: " + startNumber4);
 
         System.out.println("\nTest case 5: Positive double");

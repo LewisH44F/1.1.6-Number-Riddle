@@ -37,14 +37,16 @@ public class main {
         startNumber5 +=6;
         startNumber5 /=2 ;
         startNumber5 -= 2.5;
-        System.out.println((int)startNumber5);
+        int finalNumber5 = (int) startNumber5; 
+        System.out.println(finalNumber5);
         
         double startNumber6 = -3.5; // negative double value for testing
         startNumber6 = startNumber6 * 2;
-        startNumber6 +=6;
-        startNumber6 /=2 ;
+        startNumber6 += 6;
+        startNumber6 /= 2;
         startNumber6 -= -3.5;
-        System.out.println((int)startNumber6);
+        int finalNumber6 = (int) startNumber6;
+        System.out.println(finalNumber6);
     
     }
 }

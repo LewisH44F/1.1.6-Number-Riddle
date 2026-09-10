@@ -17,7 +17,8 @@ public class main {
         System.out.println("Divided by 2: " + startNumber1);
         startNumber1 -= 3;
         System.out.println("Subtracted 3: " + startNumber1);
-        System.out.println("Final value: " + startNumber1); // Printing final value of segment
+        int finalNumber1 = startNumber1;
+        System.out.println("Final value: " + finalNumber1); // Printing final value of segment
 
         System.out.println("\nTest case 2: Negative integer");
         int startNumber2 = -5; // negative number for testing
@@ -30,7 +31,8 @@ public class main {
         System.out.println("Divided by 2: " + startNumber2);
         startNumber2 -= -5;
         System.out.println("Subtracted -5: " + startNumber2);
-        System.out.println("Final value: " + startNumber2); // Printing final value of segment
+        int finalNumber2 = startNumber2;
+        System.out.println("Final value: " + finalNumber2); // Printing final value of segment
         
         System.out.println("\nTest case 3: Zero");
         int startNumber3 = 0; // 0 value for testing
@@ -43,7 +45,8 @@ public class main {
         System.out.println("Divided by 2: " + startNumber3);
         startNumber3 -= 0;
         System.out.println("Subtracted 0: " + startNumber3);
-        System.out.println("Final value: " + startNumber3);    // Printing final value of segment
+        int finalNumber3 = startNumber3;
+        System.out.println("Final value: " + finalNumber3);    // Printing final value of segment
         
         System.out.println("\nTest case 4: Multi positive integer");
         int startNumber4 = 1; // multi pos. value for testing
@@ -56,7 +59,8 @@ public class main {
         System.out.println("Divided by 2: " + startNumber4);
         startNumber4 -= 1;
         System.out.println("Subtracted 1: " + startNumber4);
-        System.out.println("Final value: " + startNumber4);  // Printing final value of segment
+        int finalNumber4 = startNumber4;
+        System.out.println("Final value: " + finalNumber4);  // Printing final value of segment
 
         System.out.println("\nTest case 5: Positive double");
         double startNumber5 = 2.5; // positive double value for testing
@@ -68,8 +72,8 @@ public class main {
         startNumber5 /=2 ;
         System.out.println("Divided by 2: " + startNumber5);
         startNumber5 -= 2.5;
-        int finalNumber5 = (int) startNumber5; 
         System.out.println("Subtracted 2.5: " + startNumber5);
+        int finalNumber5 = (int) startNumber5; //use of casting to convert a double into an integer
         System.out.println("Final value: " + finalNumber5);  // Printing final value of segment
         
         System.out.println("\nTest case 6: Negative double");
@@ -82,8 +86,8 @@ public class main {
         startNumber6 /= 2;
         System.out.println("Divided by 2: " + startNumber6);
         startNumber6 -= -3.5;
-        int finalNumber6 = (int) startNumber6;
         System.out.println("Subtracted -3.5: " + startNumber6);
+        int finalNumber6 = (int) startNumber6; //similar use of casting to convert a double into an integer
         System.out.println("Final value: " + finalNumber6);  // Printing final value of segment
     
     }

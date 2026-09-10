@@ -23,7 +23,7 @@ public class main {
         startNumber3 += 6;
         startNumber3 /= 2;
         startNumber3 -= 0;
-        System.out.println(startNumber3)    
+        System.out.println(startNumber3);    
         
         int startNumber4 = 1; // multi pos. value for testing
         startNumber4 = startNumber4 * 2;

@@ -15,21 +15,21 @@ public class main {
         startNumber2 = startNumber2 * 2;
         startNumber2 +=6;
         startNumber2 /=2 ;
-        startNumber2 -= 3;
+        startNumber2 -= -5;
         System.out.println(startNumber2);
         
         int startNumber3 = 0; // 0 value for testing
         startNumber3 = startNumber3 * 2;
         startNumber3 += 6;
         startNumber3 /= 2;
-        startNumber3 -= 3;
+        startNumber3 -= 0;
         System.out.println(startNumber3)    
         
         int startNumber4 = 1; // multi pos. value for testing
         startNumber4 = startNumber4 * 2;
         startNumber4 += 6;
         startNumber4 /= 2;
-        startNumber4 -= 3;
+        startNumber4 -= 1;
         System.out.println(startNumber4);
 
         double startNumber5 = 2.5; // positive double value for testing
